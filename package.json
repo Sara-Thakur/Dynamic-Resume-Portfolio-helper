@@ -1,0 +1,11 @@
+{
+  "name": "mern-dynamic-portfolio-ats-builder",
+  "version": "1.0.0",
+  "description": "Production-ready MERN Dynamic Portfolio & ATS Resume Builder in Light Mode theme",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build"
+  }
+}
